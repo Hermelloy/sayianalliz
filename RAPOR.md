@@ -14,16 +14,16 @@ Program kullanıcıdan 0 girene kadar sayılar alır bu sayıların asal olma du
 
 **İşlemler:**
 -0 olma durumunu kontrol eder
--pozitif sayi adedi bul
--negatif sayi adedi bul
--asal olma durumunu kontrol et
--sayilarin toplamını kontrol eder
--sayilarin ortalamasını hesaplar
--en büyük sayıyı bulur
--en küçük sayıyı bulur
--çift sayı sayısını hesaplar
--tek sayı sayısını hesaplar
--sayının mükemmel olma durumunu hesaplar
+pozitif sayi adedi bul
+negatif sayi adedi bul
+asal olma durumunu kontrol et
+sayilarin toplamını kontrol eder
+sayilarin ortalamasını hesaplar
+en büyük sayıyı bulur
+en küçük sayıyı bulur
+çift sayı sayısını hesaplar
+tek sayı sayısını hesaplar
+sayının mükemmel olma durumunu hesaplar
 -
 
 **Çıktılar:**
