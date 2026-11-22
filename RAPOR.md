@@ -1,3 +1,4 @@
+<img width="896" height="1200" alt="Gemini_Generated_Image_7cteju7cteju7cte" src="https://github.com/user-attachments/assets/f947485a-6f13-4783-accf-251cc2d73c73" />
 # Rapor
 
 **Bilgekağan Okuducu:**
@@ -149,20 +150,73 @@ BİTİR
 
 ## 4. Akış Şeması
 
-![Akış Şeması](docs/akis-semasi.png)
+![Akış Şeması](<img width="896" height="1200" alt="Gemini_Generated_Image_7cteju7cteju7cte" src="https://github.com/user-attachments/assets/ba995ec9-53be-4abf-8edc-b19189be87e0" />
+)
 
 ## 5. Test Senaryoları (en az 8)
 
 | No | Girilen sayılar | Beklenen sonuç | Programın sonucu | Doğru mu? |
 |---|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
-| 4 | | | | |
-| 5 | | | | |
-| 6 | | | | |
-| 7 | | | | |
-| 8 | | | | |
+| 1 |0 |Analiz yapılmadan programın sonlandığına dair uyarı mesajı (0 analize dahil edilmemeli). |Analiz yapılmadan programın sonlandığına dair uyarı mesajı (0 analize dahil edilmemeli). |Doğru|
+| 2 |7,0 |için: Asal (evet), Mükemmel sayı (hayır), 1 basamaklı
+
+Rapor: Negatif 0, Pozitif 1, Çift 0, Tek 1, En büyük 7, En küçük 7, Fark 0, Toplam 7, Genel ortalama 7.0, Pozitif ortalama 7.0, Asal adedi 1 | için: Asal (evet), Mükemmel sayı (hayır), 1 basamaklı
+
+Rapor: Negatif 0, Pozitif 1, Çift 0, Tek 1, En büyük 7, En küçük 7, Fark 0, Toplam 7, Genel ortalama 7.0, Pozitif ortalama 7.0, Asal adedi 1|doğru |
+| 3 |6,28,0 |6 için: Asal değil, Mükemmel sayı (evet), 1 basamaklı
+
+28 için: Asal değil, Mükemmel sayı (evet), 2 basamaklı
+
+Rapor: Negatif 0, Pozitif 2, Çift 2, Tek 0, En büyük 28, En küçük 6, Fark 22, Toplam 34, Genel ortalama 17.0, Pozitif ortalama 17.0, Asal adedi 0 |6 için: Asal değil, Mükemmel sayı (evet), 1 basamaklı
+
+28 için: Asal değil, Mükemmel sayı (evet), 2 basamaklı
+
+Rapor: Negatif 0, Pozitif 2, Çift 2, Tek 0, En büyük 28, En küçük 6, Fark 22, Toplam 34, Genel ortalama 17.0, Pozitif ortalama 17.0, Asal adedi 0 |doğru |
+| 4 |10,-4,3,0 |10: Asal değil, Mükemmel değil, 2 basamaklı
+
+-4: Asal değil, Mükemmel değil, 1 basamaklı
+
+3: Asal, Mükemmel değil, 1 basamaklı
+
+Rapor: Negatif 1, Pozitif 2, Çift 2, Tek 1, En büyük 10, En küçük -4, Fark 14, Toplam 9, Genel ortalama 3.0, Pozitif ortalama 6.5, Asal adedi 1 |10: Asal değil, Mükemmel değil, 2 basamaklı
+
+-4: Asal değil, Mükemmel değil, 1 basamaklı
+
+3: Asal, Mükemmel değil, 1 basamaklı
+
+Rapor: Negatif 1, Pozitif 2, Çift 2, Tek 1, En büyük 10, En küçük -4, Fark 14, Toplam 9, Genel ortalama 3.0, Pozitif ortalama 6.5, Asal adedi 1 |dogru |
+| 5 |-12,-5,0 |-12: Asal değil, Mükemmel değil, 2 basamaklı
+
+-5: Asal değil, Mükemmel değil, 1 basamaklı
+
+Rapor: Negatif 2, Pozitif 0, Çift 1, Tek 1, En büyük -5, En küçük -12, Fark 7, Toplam -17, Genel ortalama -8.5, Pozitif ortalama 0.0 (veya pozitif sayı yok uyarısı, asla NaN değil), Asal adedi 0 |-12: Asal değil, Mükemmel değil, 2 basamaklı
+
+-5: Asal değil, Mükemmel değil, 1 basamaklı
+
+Rapor: Negatif 2, Pozitif 0, Çift 1, Tek 1, En büyük -5, En küçük -12, Fark 7, Toplam -17, Genel ortalama -8.5, Pozitif ortalama 0.0 (veya pozitif sayı yok uyarısı, asla NaN değil), Asal adedi 0 |dogru |
+| 6 |1,2,9,0 |1: Asal değil, Mükemmel değil, 1 basamaklı
+
+2: Asal, Mükemmel değil, 1 basamaklı
+
+9: Asal değil, Mükemmel değil, 1 basamaklı
+
+Rapor: Negatif 0, Pozitif 3, Çift 1, Tek 2, En büyük 9, En küçük 1, Fark 8, Toplam 12, Genel ortalama 4.0, Pozitif ortalama 4.0, Asal adedi 1 |1: Asal değil, Mükemmel değil, 1 basamaklı
+
+2: Asal, Mükemmel değil, 1 basamaklı
+
+9: Asal değil, Mükemmel değil, 1 basamaklı
+
+Rapor: Negatif 0, Pozitif 3, Çift 1, Tek 2, En büyük 9, En küçük 1, Fark 8, Toplam 12, Genel ortalama 4.0, Pozitif ortalama 4.0, Asal adedi 1 |dogru |
+| 7 |5,84,999,0 |Basamaklar sırasıyla: 5 → 1, 84 → 2, 999 → 3, 1000 → 4
+
+Rapor: Negatif 0, Pozitif 4, Çift 2, Tek 2, En büyük 1000, En küçük 5, Fark 995, Toplam 2088, Genel ortalama 522.0, Pozitif ortalama 522.0, Asal adedi 1 |Basamaklar sırasıyla: 5 → 1, 84 → 2, 999 → 3, 1000 → 4
+
+Rapor: Negatif 0, Pozitif 4, Çift 2, Tek 2, En büyük 1000, En küçük 5, Fark 995, Toplam 2088, Genel ortalama 522.0, Pozitif ortalama 522.0, Asal adedi 1 |dogru |
+| 8 |11,11,11,,0 |Her 11 için: Asal, Mükemmel değil, 2 basamaklı
+
+Rapor: Negatif 0, Pozitif 3, Çift 0, Tek 3, En büyük 11, En küçük 11, Fark 0, Toplam 33, Genel ortalama 11.0, Pozitif ortalama 11.0, Asal adedi 3 |Her 11 için: Asal, Mükemmel değil, 2 basamaklı
+
+Rapor: Negatif 0, Pozitif 3, Çift 0, Tek 3, En büyük 11, En küçük 11, Fark 0, Toplam 33, Genel ortalama 11.0, Pozitif ortalama 11.0, Asal adedi 3 |dogru |
 
 ## 6. Ek Görevler (Opsiyonel)
 <!-- Max-min farkı, pozitiflerin ortalaması, asal sayı adedi için örnek çıktılar. -->
