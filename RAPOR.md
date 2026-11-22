@@ -24,6 +24,7 @@ Program kullanıcıdan 0 girene kadar sayılar alır bu sayıların asal olma du
 -çift sayı sayısını hesaplar
 -tek sayı sayısını hesaplar
 -sayının mükemmel olma durumunu hesaplar
+-
 
 **Çıktılar:**
 -
