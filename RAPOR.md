@@ -219,5 +219,8 @@ Rapor: Negatif 0, Pozitif 3, Çift 0, Tek 3, En büyük 11, En küçük 11, Fark
 Rapor: Negatif 0, Pozitif 3, Çift 0, Tek 3, En büyük 11, En küçük 11, Fark 0, Toplam 33, Genel ortalama 11.0, Pozitif ortalama 11.0, Asal adedi 3 |dogru |
 
 ## 6. Ek Görevler (Opsiyonel)
-<!-- Max-min farkı, pozitiflerin ortalaması, asal sayı adedi için örnek çıktılar. -->
+*GİRDİLER*   *ÇIKTILAR*
+|15,-8,6,9,0| |girdiginiz sayilarin 1.0 tanesi negatif, 3.0 tanesi pozitif; 2.0 tanesi cift, 2.0 tanesi tektir.
+Girdi�iniz sayilarin en buyugu 15.0 en kucugu -8.0'dir. Bu iki sayinin farki: 23.0'dir. Girdiginiz asal sayi sayisi 0.0'dir.
+girilen t�m sayilarin ortalamsi 5.5 yalnizca pozitif sayilarin ortalamsi 10.0'dir. Girilen sayilarin toplami 22.0'dir|
 
